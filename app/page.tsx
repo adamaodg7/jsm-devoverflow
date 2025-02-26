@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex">
       <p>Compteur : {count}</p>
       <button
-        className="bg-blue-400 text-white p-5 rounded flex-center mx-auto"
+        className="mx-auto flex rounded bg-blue-400 p-5 text-white"
         onClick={() => setCount(count + 1)}
       >
         +1
