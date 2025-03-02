@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Home() {
   const [count, setCount] = useState(0);
   return (
-    <div className="flex">
+    <div className="flex font-inter">
       <p>Compteur : {count}</p>
       <button
         className="mx-auto flex rounded bg-blue-400 p-5 text-white"
